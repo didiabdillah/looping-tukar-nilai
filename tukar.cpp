@@ -30,10 +30,12 @@ int main()
     {
         jmax = 0;
         for (k = 1; k <= u; k++)
+        {
             if (A[k] > A[jmax])
             {
                 jmax = k;
             }
+        }
         temp = A[u];
         A[u] = A[jmax];
         A[jmax] = temp;
