@@ -3,6 +3,7 @@
 #include <iomanip>
 using namespace std;
 
+//prosedur untuk menjalankan sorting
 void sorting(int banyak, int u, int A[])
 {
     int jmax, temp;
@@ -31,6 +32,7 @@ void sorting(int banyak, int u, int A[])
     }
 }
 
+//method utama
 int main()
 {
     //deklarasi variabel statis
@@ -52,5 +54,6 @@ int main()
         cin >> A[i];
     }
 
+    //memanggil prosedur sorting()
     sorting(banyak, u, A);
 }
